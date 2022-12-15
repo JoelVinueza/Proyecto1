@@ -1,0 +1,37 @@
+/*Calculadora de rem a px, 1rem=10px*/
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/*Paleta de colores*/
+:root{
+    --blanco: #ffffff;
+    --negro: #212121;
+    --primario: #FFC107;
+    --secundario: #0097A7;
+    --gris: #757575;
+    /*Nota: Se puede añadir diferentes valores ej: size, aling....*/
+}
+
+/*Estilos*/
+.titulo{
+    text-align: center;
+    font-size: 3.8rem;
+    font-family: 'Indie Flower', cursive;
+}
+.titulo span{
+    font-size: 2rem;
+}
+.contenedor{
+    width: 120rem;
+    margin: 0 auto;
+}
+.nav-bg{
+    background-color: var(--secundario);
+}
+.navegacion-principal a{
+}
